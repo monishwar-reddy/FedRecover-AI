@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-200 font-sans selection:bg-fedex-purple selection:text-white;
+  }
+}
+
+.glass-panel {
+  @apply bg-slate-900/50 backdrop-blur-xl border border-slate-700/50 shadow-xl rounded-xl;
+}
+
+.heading-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-fedex-purple to-fedex-orange font-display font-bold;
+}
